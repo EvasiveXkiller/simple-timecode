@@ -1,4 +1,4 @@
-const timecode = require("timecode");
+const timecode = require("./timecode.js");
 
 module.exports = {
 	timecode

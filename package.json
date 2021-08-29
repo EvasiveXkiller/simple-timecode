@@ -2,14 +2,16 @@
   "name": "simple-timecode",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape \"tests/**/*.js\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jsdoc": "^3.6.7",
+    "jsdoc-to-markdown": "^7.0.1",
     "tape": "^5.3.1"
   }
 }
