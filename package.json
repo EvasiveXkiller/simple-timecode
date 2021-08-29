@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "tape \"tests/**/*.js\""
+    "test": "tape \"tests/**/*.js\"",
+    "doc" : "jsdoc2md .\\src\\**.js > README.md"
   },
   "keywords": [],
   "author": "",

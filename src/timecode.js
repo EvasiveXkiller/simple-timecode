@@ -1,4 +1,7 @@
-module.exports = class timecode {
+/**
+ * Class to handle static function
+ */
+class Timecode {
 	constructor() {
 	}
 
@@ -6,6 +9,11 @@ module.exports = class timecode {
 	 * Converts millisecond to standard time code
 	 * @param ms Milliseconds in number
 	 * @returns {string} Converted Timecode Eg. 2:55:55
+	 * @example
+	 *
+	 * ```js
+	 * const time = Timecode.MillisecondsToTime(32000000)
+	 * ```
 	 */
 	static MillisecondsToTime(ms) {
 		const seconds = Math.floor((ms / 1000) % 60);
@@ -23,6 +31,10 @@ module.exports = class timecode {
 	 * Converts a standard time code to milliseconds.
 	 * @param time The time code. Eg. 2:55:55
 	 * @returns {number} Milliseconds
+	 * @example
+	 * ```js
+	 * const ms = Timecode.TimeToMilliseconds("4:30:00");
+	 * ```
 	 */
 	static TimeToMilliseconds(time) {
 		const items = time.split(":");
@@ -35,3 +47,5 @@ module.exports = class timecode {
 		);
 	}
 }
+
+module.exports = Timecode;
