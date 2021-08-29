@@ -44,3 +44,15 @@ Converts a standard time code to milliseconds.
 ```js
 const ms = Timecode.TimeToMilliseconds("4:30:00");
 ```
+## Tests
+Tests are written in [tape](https://github.com/substack/tape)
+
+To run them, just do:
+```shell
+npm run test
+```
+
+## Contributing
+Any is welcomed. Just open a PR.
+
+
