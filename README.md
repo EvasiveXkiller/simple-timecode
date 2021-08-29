@@ -1,5 +1,8 @@
 <a name="Timecode"></a>
 # simple-timecode
+
+A simple tool to convert timecodes
+
 <div>
    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/EvasiveXkiller/simple-timecode/Tests?label=Tests&logo=Test">
    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EvasiveXkiller/simple-timecode">
